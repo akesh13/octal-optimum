@@ -1,0 +1,46 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 50px;
+border-radius: 20px;
+}
+
+.form_parent {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+.form_input {
+  padding: 20px;
+}
+
+.login_btn {
+  padding: 20px !important;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.btn_parent :hover {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.login_btn :hover {
+}
